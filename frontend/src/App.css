@@ -1,0 +1,158 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #f4f7fa;
+  position: relative;
+}
+
+/* Standardized header styles based on the image */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation li {
+  margin: 0 1rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dropdown-arrow {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+/* Login page styles */
+.login-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-section {
+  flex: 1;
+  padding: 2rem;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ddd;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Standardized button styles */
+.login-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #34495e;
+}
+
+/* Help button style */
+.help-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.question-mark {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
